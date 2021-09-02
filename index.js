@@ -13,7 +13,7 @@ module.exports = {
 
     config.module.rules.push({
       test: /\.marko$/,
-      loader: require.resolve('marko-loader')
+      loader: require.resolve('@marko/webpack/loader')
     });
 
     return config;
